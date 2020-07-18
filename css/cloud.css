@@ -1,0 +1,190 @@
+
+/*DANIEL PEDROZA CLOUDS BACKGROUND*/
+
+
+.sky {
+    /*background-color: gray;*/
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.line {
+    float: left;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+}
+
+.animation_right{
+    animation-name: cloud_right;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+.animation_left{
+    animation-name: cloud_left;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.cloud {
+    height: 100%;
+    width: 5%;
+    position: relative;
+    float: left;
+    margin: 5% 5%;
+    background-color: aliceblue;
+}
+
+.cloud_on_off .top {
+    margin: 10% 35% 20% 35%;
+    background-color: black;
+    width: 25%;
+    height: 25%;
+    border-radius: 100% 100% 100% 100%;
+    position: absolute;
+}
+.cloud_on_off .black{
+    margin: -50px 0px 0px -50px;
+    background-color: black;
+    width: 210px;
+    height: 100px;
+    border-radius: 100px 100px 100px 100px;
+}
+.cloud_on_off .white {
+    margin: -120px 0px 0px 15px;
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.cloud_on_off .white_stick {
+    margin: -90px 0px 0px 48px;
+    background-color: white;
+    width: 15px;
+    height: 60px;
+    border-radius: 20% 20% 20% 20%;
+}
+.cloud_on_off .black_inside {
+    margin: -70px 0px 0px 25px;
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.cloud_lightning {display: none;}
+
+.cloud_lightning .top {
+    margin: 50px 10px 0px 0px;
+    background-color: #D0D0C0;
+    width: 110px;
+    height: 100px;
+    border-radius: 100px 100px 0px 0px;
+}
+.cloud_lightning .black{
+    margin: -50px 0px 0px -50px;
+    background-color: #D0D0C0;
+    width: 210px;
+    height: 100px;
+    border-radius: 100px 100px 100px 100px;
+}
+.cloud_lightning .rectangule {
+    width: 20px;
+    height: 0px;
+    border-top: 60px solid #EDEB1B;
+    border-bottom: 0px solid #EDEB1B;
+    border-left: 0px solid transparent;
+    border-right: 20px solid transparent;
+    position: absolute;
+    margin-top: -40px;
+    transform: rotate(-10deg);
+    transform-origin: bottom left;
+    display: none;
+}
+.cloud_lightning .triangule {
+    width: 0px;
+    height: 0px;
+    border-top: 70px solid #EDEB1B;
+    border-bottom: 0px solid transparent;
+    border-left: 0px solid transparent;
+    border-right: 20px solid transparent;
+    position: absolute;
+    margin-left: 20px;
+    transform: rotate(-10deg);
+    transform-origin: bottom left;
+    display: none;
+}
+
+/*animation_right*/
+@keyframes cloud_right {
+    0%   {left:0%;}
+    100% {left:50%;}
+  }
+
+@keyframes cloud_left {
+    0%   {left:50%;}
+    100% {left:0%;}
+  }
+
+  /*shadow*/
+
+  .cloud_shadow {
+	width: 35px; height: 12px;
+	
+	background: #f2f9fe;
+	background: linear-gradient(top, #f2f9fe 5%, #d6f0fd 100%);
+	background: -webkit-linear-gradient(top, #f2f9fe 5%, #d6f0fd 100%);
+	background: -moz-linear-gradient(top, #f2f9fe 5%, #d6f0fd 100%);
+	background: -ms-linear-gradient(top, #f2f9fe 5%, #d6f0fd 100%);
+	background: -o-linear-gradient(top, #f2f9fe 5%, #d6f0fd 100%);
+	
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	
+	position: relative;
+    /*margin: 120px auto 2px;*/
+    float: left;
+}
+
+.cloud_shadow:after, .cloud_shadow:before {
+	content: '';
+	position: absolute;
+	background: #f2f9fe;
+	z-index: -1
+}
+
+.cloud_shadow:after {
+	width: 10px; height: 10px;
+	top: -5px; left: 5px;
+	
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+.cloud_shadow:before {
+    width: 18px; 
+    height: 20px;
+    top: -8px;
+    right: 5px;
+	
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+
+.shadow {
+	width: 35px;
+	position: absolute; bottom: -1px; 
+	background: #000;
+	z-index: -1;
+	
+	box-shadow: 0 0 25px 8px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 0 25px 8px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 0 0 25px 8px rgba(0, 0, 0, 0.4);
+	
+	border-radius: 5%;
+	-moz-border-radius: 5%;
+	-webkit-border-radius: 5%;
+}
