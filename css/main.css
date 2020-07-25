@@ -7,10 +7,6 @@ body {
 /*MAIN*/
 .package {
   margin: 1em;
-  
-  background-color: #fff;
-  border: 2px solid #ccc;
-  border-radius: 15px;
 }
 .text-center {
   text-align: center;
@@ -19,18 +15,24 @@ h1, .h1 {
   font-size: 1.5rem;
 }
 
+.side {
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  margin-bottom: 1em;
+}
+
 .left-side{
   /* border-bottom: 1px solid #cccccc; */
 }
 
 .right-side {
-
 }
 
 .circular {
   border-radius: 50%;
-  width: 30%;
-  margin: 1em;
+  /* width: 30%;
+  margin: 1em; */
 }
 
 
@@ -42,3 +44,11 @@ footer {
 footer p {
   margin-bottom: .25rem;
 }
+
+img,
+figure {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+svg { max-width: 100%; }
