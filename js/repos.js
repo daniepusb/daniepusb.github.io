@@ -1,17 +1,23 @@
 $(()=> {
 
-    
-
     const el = document.querySelector('#btnRepos');
+
     el.addEventListener("click", function() {
+
+
+
         $('.side.right-side.hide').removeClass('hide')
 
         const url = 'https://api.github.com/users/daniepusb/repos';
         
         axios.get(url)
         .then(function (data) {
+
             var flag_see_more = '';
             for(var i in data.data ) {
+
+
+
                 if (empty(data.data[i].description)) { 
                     data.data[i].description = '';
                     flag_see_more = 'hide';
@@ -22,13 +28,13 @@ $(()=> {
                     "<div class='col-xs-12 col-sm-4 col-md-4 col-lg-3'>"+
                         "<div class='card mb-4 shadow-sm'>"+
                             "<div class='card-body'>"+ 
-                                "<h5 class='text-center mb-0 card-title'>"+ data.data[i].name +"</h5>"+
+                                "<h5 class='text-left mb-0 card-title'>"+ data.data[i].name +"</h5>"+
                                 "<div id='collapse"+i+"' class='accordion-body collapse mt-2 "+flag_see_more+"'>"+
                                     "<div class='accordion-inner'>"+
                                     "<p class='card-text text-monospace'>'" + data.data[i].description +"'</p>"+
                                     "</div>"+
                                 "</div>"+
-                                "<a class='"+flag_see_more+"font-weight-lighter btn btn-link float-left pl-0'"+
+                                "<a class='"+flag_see_more+" font-weight-lighter btn btn-link float-left pl-0'"+
                                 "type='button' data-toggle='collapse' data-target='#collapse"+i+"' aria-expanded='true' aria-controls='collapseOne'>"+
                                 "<small class='text-info'>ver descripción</small>"+
                                 "</a> "+
