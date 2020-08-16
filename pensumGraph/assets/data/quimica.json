@@ -1,0 +1,26 @@
+{
+    "name": "Ing. Computacion",
+    "root": true,
+    "courses": [
+      {
+        "name": "Modelos Lineales I",
+        "code": "PS1111",
+        "u_credits": 4,
+        "prerequisite": [
+          "CO3211"
+        ],
+        "departament": "Procesos y Sistemas"
+      },
+      {
+        "name": "Cálculo Numérico",
+        "code": "CO3211",
+        "u_credits": 4,
+        "prerequisite": [
+          "MA2115",
+          "CI2691"
+        ],
+        "departament": "Cómputo Ciéntifico y Estadítica"
+      }
+    ],
+    "vigencia": "2020-08-15"
+  }

@@ -1,0 +1,254 @@
+[
+{
+    "name": "Frontend",
+    "level": 2,
+    "hash":"",
+    "file":"",
+    "content": [
+        {
+            "name": "CSS",
+            "level": 3,
+            "hash":"",
+            "file":"",
+             "content": [
+                {
+                    "name": "Frameworks CSS",
+                    "level": 4,
+                    "hash":"",
+                    "file":"",
+                    "content": [
+                        {
+                            "name": "Ulkit framework",
+                            "level": 5,
+                            "hash":"",
+                            "file":"",
+                            "content": []
+                        },
+                        {
+                            "name": "Bootstrap",
+                            "level": 5,
+                            "hash":"",
+                            "file":"",
+                            "content": []
+                        },
+                        {
+                            "name": "Foundation",
+                            "level": 5,
+                            "hash":"",
+                            "file":"",
+                            "content": []
+                        },
+                        {
+                            "name": "Bulma",
+                            "level": 5,
+                            "hash":"",
+                            "file":"",
+                            "content": []
+                        },
+                        {
+                            "name": "Semantic UI",
+                            "level": 5,
+                            "hash":"",
+                            "file":"",
+                            "content": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "JS",
+            "level": 3, 
+            "hash":"",
+            "file":"",
+            "content": [
+                {
+                    "name": "Frameworks JS",
+                    "level": 4,
+                    "hash":"",
+                    "file":"",
+                    "content": [
+                        {
+                            "name": "Angular",
+                            "level": 5,
+                            "hash":"",
+                            "file":"",
+                            "content": []
+                        },
+                        {
+                            "name": "React",
+                            "level": 5,
+                            "hash":"",
+                            "file":"",
+                            "content": []
+                        },
+                        {
+                            "name": "Vue",
+                            "level": 5,
+                            "hash":"",
+                            "file":"",
+                            "content": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Vanilla JS",
+                    "level": 5,
+                    "hash":"",
+                    "file":"",
+                    "content": []
+                }
+            ]  
+        },
+        {"name": "HTML", "level": 3, "hash":"", "file":"", "content": []  }
+    ]
+},
+{
+    "name": "IOT",
+    "level": 2,
+    "hash":"",
+    "file":"",
+    "content": []
+},
+{
+    "name": "Inteligencia Artificial",
+    "level": 2,
+    "hash":"",
+    "file":"",
+    "content": []
+},
+{
+    "name": "Backend",
+    "level": 2,
+    "hash":"",
+    "file":"",
+    "content": [
+        {
+            "name": "Frameworks",
+            "level": 3,
+            "hash":"",
+            "file":"",
+            "content": [
+                {
+                    "name": "Java",
+                    "level": 4,
+                    "hash":"",
+                    "file":"",
+                    "content": [
+                        {
+                            "name": "Spring",
+                            "level": 5,
+                            "hash":"",
+                            "file":"",
+                            "content": [
+                                {
+                                    "name": "SpringBoot",
+                                    "level": 6,
+                                    "hash":"",
+                                    "file":"",
+                                    "content": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "PHP",
+                    "level": 4,
+                    "hash":"",
+                    "file":"",
+                    "content": [
+                        {
+                            "name": "Laravel",
+                            "level": 5,
+                            "hash":"",
+                            "file":"",
+                            "content": []
+                        }
+                    ]
+                },
+                {
+                    "name": "JS",
+                    "level": 4,
+                    "hash":"",
+                    "file":"",
+                    "content": [
+                        {
+                            "name": "Express",
+                            "level": 5,
+                            "hash":"",
+                            "file":"",
+                            "content": []
+                        },
+                        {
+                            "name": "Koa",
+                            "level": 5,
+                            "hash":"",
+                            "file":"",
+                            "content": []
+                        },
+                        {
+                            "name": "Meteor",
+                            "level": 5,
+                            "hash":"",
+                            "file":"",
+                            "content": []
+                        },
+                        {
+                            "name": "Hapi",
+                            "level": 5,
+                            "hash":"",
+                            "file":"",
+                            "content": []
+                        },
+                        {
+                            "name": "Sails",
+                            "level": 5,
+                            "hash":"",
+                            "file":"",
+                            "content": []
+                        }
+                    ]
+                }
+            ]
+        }
+
+    ]
+},
+{
+    "name": "DevOps",
+    "level": 2,
+    "hash":"",
+    "file":"",
+    "content": [
+        {
+            "name": "Kubernetes",
+            "level": 3,
+            "hash":"",
+            "file":"",
+            "content": []
+        }
+    ]
+},
+{
+    "name": "DataScience",
+    "level": 2,
+    "hash":"",
+    "file":"",
+    "content": []
+},
+{
+    "name": "VideoJuegos",
+    "level": 2,
+    "hash":"",
+    "file":"",
+    "content": []
+},
+{
+    "name": "Desarrollo Movil",
+    "level": 2,
+    "hash":"",
+    "file":"",
+    "content": []
+}
+]

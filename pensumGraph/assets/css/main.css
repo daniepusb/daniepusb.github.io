@@ -1,0 +1,65 @@
+/*HACKS*/
+/*
+    * {border: red 1px solid;}
+*/
+
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+section {
+    width: 100%;
+    padding: 10% 0 10% 0;
+}
+#inicio,#inicio span {
+    margin-bottom: 1em;
+    /* text-transform: uppercase; */
+}
+#inicio.btn:hover{
+    color: white;
+    background-color: rgb(34, 228, 92);
+    opacity: 0.6;
+}
+.btn {
+    cursor: pointer;
+    margin: 10px auto;
+    width: 50%;
+    text-align: center;
+    padding: 5%;
+    border:  rgb(197, 197, 190) 2px solid;
+    background-color: transparent;
+    -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+    text-transform:capitalize;
+}
+.btn span {
+    position: relative;
+    transition: 0.5s;
+}
+.btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.btn:hover, .seleccionado{
+    color: white;
+    background-color: rgb(62, 120, 187);
+    opacity: 0.6;
+}
+.btn:hover span {
+    padding-right: 25px;
+}
+.btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.oculto {
+    display: none !important;
+}
