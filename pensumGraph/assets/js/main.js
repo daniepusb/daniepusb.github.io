@@ -1,4 +1,3 @@
-
 /*
 Here yo uwill find:
     Initial Fetch Content
@@ -16,7 +15,7 @@ async function iniciar(){
     _inicio             = await response.json()
 
     imprimir_contenido(_inicio.content)
-    dibujar_en_canvas()
+    //dibujar_en_canvas()
     //console.log(_inicio)
 }
 
@@ -54,10 +53,6 @@ function reiniciar(){
     document.getElementById('resultado').innerHTML = ""
     document.getElementById('inicio').classList.remove('seleccionado')
 }
-
-
-
-
 
 
 /**
