@@ -19,7 +19,7 @@ section {
     width: 80%;
     float: right;
 }
-#resultado .btn[data-level="1"]::before {
+#resultado .btn::before {
     content : '';
     border-left:  1px solid rgb(2, 2, 2);
     border-bottom:  1px solid rgb(2, 2, 2);
