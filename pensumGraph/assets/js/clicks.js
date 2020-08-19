@@ -19,7 +19,7 @@ document.addEventListener('click', function (event) {
             reiniciar_resultado()                   //reinicio en resultado
             reiniciar_tope(el)
         }
-    }else if (el.matches('.btn') ){
+    }else if (el.matches('#resultado .btn') ){
         el.classList.add('seleccionado')            //marcar seleccion
         document.getElementById('tope').appendChild(el)//apend opcion a tope con inicio
         reiniciar_resultado()                       //reinicio en resultado
