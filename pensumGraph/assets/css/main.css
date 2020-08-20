@@ -19,18 +19,6 @@ section {
     width: 80%;
     float: right;
 }
-#resultado .btn::before {
-    content : '';
-    border-left:  1px solid rgb(2, 2, 2);
-    border-bottom:  1px solid rgb(2, 2, 2);
-    display: block;
-    position: absolute;
-    margin: -5em 0 0 -2em ;
-    height: 5.5em;
-    width: 2em;
-    opacity: 0.6;
-    z-index: -1;
-}
 #inicio,#inicio span {
     margin-bottom: 1em;
     /* text-transform: uppercase; */
@@ -42,10 +30,9 @@ section {
 .btn {
     cursor: pointer;
     margin: 10px auto;
-    width: 50%;
-    max-width: 200px;
+    width: 70%;
+    max-width: 150px;
     max-height: 60px;
-    text-align: center;
     padding: 1em;
     border:  rgb(197, 197, 190) 2px solid;
     background-color: white;
@@ -53,6 +40,7 @@ section {
         -moz-border-radius: 28;
         border-radius: 28px;
     text-transform:capitalize;
+    
 }
 .btn span {
     position: relative;

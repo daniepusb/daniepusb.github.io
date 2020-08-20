@@ -1,0 +1,28 @@
+
+
+.btn {
+    overflow: hidden;
+    /* text-align: left; */
+}
+
+#resultado .btn::before {
+    content : '';
+    border-left:  1px solid rgb(2, 2, 2);
+    border-bottom:  1px solid rgb(2, 2, 2);
+    display: block;
+    position: absolute;
+    margin: -5em 0 0 -2em ;
+    height: 5.5em;
+    width: 2em;
+    opacity: 0.6;
+    z-index: -1;
+}
+#tope .btn:not(:first-of-type)::before{
+    content: '';
+    position: absolute;
+    border-left: 1px solid rgb(2, 2, 2);
+    height: 50px;
+    margin: -50px 0 0 0;
+    z-index: -1;
+}
+    
