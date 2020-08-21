@@ -13,11 +13,9 @@ document.addEventListener('click', function (event) {
     if (el.matches('#inicio') ){
         if (!el.classList.contains('seleccionado') ){
             el.classList.add('seleccionado')        //marcar seleccion
-            iniciar()//leer primer contenido
+            iniciar()                               //leer primer contenido
         }else{
-            el.classList.remove('seleccionado')     //desmarcar seleccion
-            reiniciar_resultado()                   //reinicio en resultado
-            reiniciar_tope(el)
+            reiniciar_todo()                        //reset plugin
         }
     }else if (el.matches('#resultado .btn') ){
         el.classList.add('seleccionado')            //marcar seleccion

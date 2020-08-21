@@ -35,9 +35,6 @@ function imprimir_contenido(arreglo){
     }
 
     document.getElementById('resultado').innerHTML = botones
-
-    //console.log("imprimir arreglo")
-    //console.log(arreglo)
 }
 
 /* Funcion regresa el template html para un nodo */
@@ -45,13 +42,13 @@ function obtener_boton(parametro){
     let pcontenido = JSON.stringify( parametro.content )
 
     const boton = `<div class="btn" 
-    data-name="${parametro.name}"
-    data-hash="${parametro.hash}" 
-    data-level="${parametro.level}" 
-    data-content='${pcontenido}' 
-    data-file="${parametro.file}" >
-    <span class="nombre">${parametro.name}</span>
-    </div>`
+        data-name="${parametro.name}"
+        data-hash="${parametro.hash}" 
+        data-level="${parametro.level}" 
+        data-content='${pcontenido}' 
+        data-file="${parametro.file}" >
+        <span class="nombre">${parametro.name}</span>
+        </div>`
 
     return boton
 }
@@ -61,13 +58,20 @@ function reiniciar_resultado(){
     document.getElementById('resultado').innerHTML = ""
 }
 
-/* Funcion borra del DOM todo el contenido de #inicio y le coloca el primer botono #inicio nuevamente pasado por parametro*/
+/* Funcion borra del DOM todo el contenido de #inicio y le coloca el primer boton #inicio nuevamente pasado por parametro*/
 function reiniciar_tope(el){
     tope = document.getElementById('tope')
     tope.innerHTML = ""
     tope.appendChild(el)
 }
 
+/* Funcion pare hacer reset del plugin */
+function reiniciar_todo(){
+    let inicio = document.getElementById('inicio')
+    inicio.classList.remove('seleccionado')             //desmarcar seleccion
+    reiniciar_resultado()                               //reinicio en resultado
+    reiniciar_tope(inicio)                              //reinicio en tope
+}
 
 /**
     //obtener_inicio*
